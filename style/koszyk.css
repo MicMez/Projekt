@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    background-color: #fff;
+}
+button{
+  color: #fff;
+}
+.logo{
+    width: auto;
+    cursor: pointer;
+}
+.banner{
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 30px 10%;
+    margin-bottom: 50px;
+}
+nav{
+    flex-basis: 35%;
+}
+div > a{
+    padding: 0.5em;
+    margin: 0.5em;
+    border: 1px solid #5c5a55;
+    border-radius: 1em;
+}
+
+li, a, button{
+    font-weight: 500;
+    font-size: 20px;
+    color: #5c5a55;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    display: flex;
+    height: 100%;
+}
+ul > li{
+    padding: 0px 20px;
+    transition-duration: 0.5;
+    display: block;
+}
+ul > li:hover{
+    cursor: pointer;
+}
+ul li ul{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease;
+    padding-top: 1rem;
+    display: none;
+    margin-left: -3em;
+}
+ul li:hover >ul,
+ul li ul:hover{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+ul li ul li {
+    clear: both;
+    width: 100%;
+  }
+ul>li>a{
+    transition: all 0.3 ease 0s;
+}
+ul>li>a:hover{
+    color:#0088a9;
+}
+button{
+    border: solid 1px #5c5a55;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+    flex-basis: 25%;
+    height: 10%;
+    margin: auto;
+}
+
+
+main>section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main>section>article {
+    padding: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color:#5c5a55;
+    margin: auto;
+}
+main>section>article>div{
+    flex-basis: 75%;
+    margin: auto;
+}
+
+main>section>article figure {
+    flex-basis: 90%;
+    margin: auto;
+}
+main>section>article>figure img{
+    max-width: 100%;
+}
+
+main>section>article>h2 {
+    font-weight: 100;
+    text-align: center;
+
+}
+h2>a{
+    color:#5c5a55;
+    padding: .5em;
+    border: 1px solid #5c5a55;
+    margin: auto;
+    border-radius: 5em;
+}
+input{
+    border: 1px solid #5c5a55;
+    border-radius: 1em;
+    padding: 0.5em;   
+}
+
+main>section>article>a {
+    color:#5c5a55;
+    padding: .5em;
+    border: 1px solid #5c5a55;
+    border-radius: .5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+h4{
+    text-align: center;
+    flex-basis:100%;
+}
+aside{
+    text-align: center;
+    margin-top:2em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+aside > p{
+    color:#5c5a55;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+h1{
+    color:#5c5a55;
+    text-align: center;
+    margin-top:2em;
+}
+span {
+    display: block;
+    width: 85%;
+    border-top: 1px solid #5c5a55;
+    margin: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+h4{
+    margin-top: 2em;
+    text-align: center;
+}
+.fa {
+    padding: 20px;
+    font-size: 35px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+}
+.Socialmedia{
+    flex-basis: 15%;
+    text-align: center;
+}
+.Kontakty{
+    flex-basis: 30%;
+    text-align: center;
+}
+.Onas{
+    flex-basis: 15%;
+    text-align: center;
+}
+footer > section {
+    color: #5c5a55;
+}
